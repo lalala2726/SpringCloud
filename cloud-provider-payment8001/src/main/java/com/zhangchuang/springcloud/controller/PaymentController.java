@@ -17,7 +17,7 @@ import java.util.Objects;
 @RestController
 @Slf4j
 @AllArgsConstructor
-@RequestMapping("/order")
+@RequestMapping("/payment")
 public class PaymentController {
 
     private final PaymentService paymentService;

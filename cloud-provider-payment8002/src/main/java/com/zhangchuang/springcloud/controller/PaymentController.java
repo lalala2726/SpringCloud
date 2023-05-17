@@ -21,10 +21,9 @@ import java.util.Objects;
 @RequestMapping("/payment")
 public class PaymentController {
 
-    private final PaymentService paymentService;
-
     @Value("${server.port}")
-    private static final String SERVER_PORT = "8001";
+    private static final String SERVER_PORT = "8002";
+    private final PaymentService paymentService;
 
     /**
      * 添加订单信息

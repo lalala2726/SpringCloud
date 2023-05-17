@@ -11,8 +11,8 @@
 
     <!--int create(Payment payment);-->
     <insert id="create" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
-        insert into payment (id, serial)
-        values (#{id}, #{serial})
+        insert into payment (serial)
+        values (#{serial})
     </insert>
 
     <!--Payment getPaymentById(@Param("id") Long id);-->
